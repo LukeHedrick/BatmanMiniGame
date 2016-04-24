@@ -1,0 +1,13 @@
+﻿  Engine.cpp
+\\banner.main.ad.rit.edu\students\lch1693\igmprofile\documents\shaderhw\helloquad\helloquad\engine.cpp(8): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+\\banner.main.ad.rit.edu\students\lch1693\igmprofile\documents\shaderhw\helloquad\helloquad\engine.cpp(12): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+\\banner.main.ad.rit.edu\students\lch1693\igmprofile\documents\shaderhw\helloquad\helloquad\engine.cpp(71): warning C4305: '=': truncation from 'double' to 'float'
+\\banner.main.ad.rit.edu\students\lch1693\igmprofile\documents\shaderhw\helloquad\helloquad\engine.cpp(125): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+\\banner.main.ad.rit.edu\students\lch1693\igmprofile\documents\shaderhw\helloquad\helloquad\engine.cpp(130): warning C4305: 'initializing': truncation from 'double' to 'float'
+\\banner.main.ad.rit.edu\students\lch1693\igmprofile\documents\shaderhw\helloquad\helloquad\engine.cpp(143): warning C4305: '=': truncation from 'double' to 'float'
+\\banner.main.ad.rit.edu\students\lch1693\igmprofile\documents\shaderhw\helloquad\helloquad\engine.cpp(218): warning C4305: '=': truncation from 'double' to 'float'
+\\banner.main.ad.rit.edu\students\lch1693\igmprofile\documents\shaderhw\helloquad\helloquad\engine.cpp(219): warning C4305: '=': truncation from 'double' to 'float'
+\\banner.main.ad.rit.edu\students\lch1693\igmprofile\documents\shaderhw\helloquad\helloquad\engine.cpp(226): warning C4305: '=': truncation from 'double' to 'float'
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  HelloQuad.vcxproj -> \\banner.main.ad.rit.edu\students\lch1693\IGMProfile\Documents\ShaderHW\HelloQuad\Debug\HelloQuad.exe
+  HelloQuad.vcxproj -> \\banner.main.ad.rit.edu\students\lch1693\IGMProfile\Documents\ShaderHW\HelloQuad\Debug\HelloQuad.pdb (Partial PDB)

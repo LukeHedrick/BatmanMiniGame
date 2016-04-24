@@ -1,0 +1,51 @@
+﻿Build started 3/20/2016 1:40:28 PM.
+     1>Project "C:\Users\Luke\Downloads\HelloQuad\HelloQuad\HelloQuad\HelloQuad.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /errorReport:prompt Engine.cpp Main.cpp ShaderManager.cpp
+         Engine.cpp
+     1>c:\users\luke\downloads\helloquad\helloquad\helloquad\engine.cpp(45): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+         Generating Code...
+         Skipping... (no relevant changes detected)
+         ShaderManager.cpp
+         Main.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Luke\Downloads\HelloQuad\HelloQuad\x64\Debug\HelloQuad.exe" /INCREMENTAL /NOLOGO glew32.lib glfw3.lib opengl32.lib FreeImage.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"C:\Users\Luke\Downloads\HelloQuad\HelloQuad\x64\Debug\HelloQuad.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Luke\Downloads\HelloQuad\HelloQuad\x64\Debug\HelloQuad.lib" /MACHINE:X64 x64\Debug\Engine.obj
+         x64\Debug\Main.obj
+         x64\Debug\ShaderManager.obj
+     1>Engine.obj : error LNK2019: unresolved external symbol __imp_glewInit referenced in function "public: bool __cdecl Engine::init(void)" (?init@Engine@@QEAA_NXZ)
+     1>Engine.obj : error LNK2019: unresolved external symbol glfwInit referenced in function "public: bool __cdecl Engine::init(void)" (?init@Engine@@QEAA_NXZ)
+     1>Engine.obj : error LNK2019: unresolved external symbol glfwTerminate referenced in function "public: bool __cdecl Engine::gameLoop(void)" (?gameLoop@Engine@@QEAA_NXZ)
+     1>Engine.obj : error LNK2019: unresolved external symbol glfwCreateWindow referenced in function "public: bool __cdecl Engine::init(void)" (?init@Engine@@QEAA_NXZ)
+     1>Engine.obj : error LNK2019: unresolved external symbol glfwWindowShouldClose referenced in function "public: bool __cdecl Engine::gameLoop(void)" (?gameLoop@Engine@@QEAA_NXZ)
+     1>Engine.obj : error LNK2019: unresolved external symbol glfwPollEvents referenced in function "public: bool __cdecl Engine::gameLoop(void)" (?gameLoop@Engine@@QEAA_NXZ)
+     1>Engine.obj : error LNK2019: unresolved external symbol glfwMakeContextCurrent referenced in function "public: bool __cdecl Engine::init(void)" (?init@Engine@@QEAA_NXZ)
+     1>Engine.obj : error LNK2019: unresolved external symbol glfwSwapBuffers referenced in function "public: bool __cdecl Engine::gameLoop(void)" (?gameLoop@Engine@@QEAA_NXZ)
+     1>Engine.obj : error LNK2001: unresolved external symbol __imp___glewBindBuffer
+     1>Engine.obj : error LNK2001: unresolved external symbol __imp___glewBufferData
+     1>Engine.obj : error LNK2001: unresolved external symbol __imp___glewGenBuffers
+     1>Engine.obj : error LNK2001: unresolved external symbol __imp___glewEnableVertexAttribArray
+     1>Engine.obj : error LNK2001: unresolved external symbol __imp___glewUseProgram
+     1>Engine.obj : error LNK2001: unresolved external symbol __imp___glewVertexAttribPointer
+     1>Engine.obj : error LNK2001: unresolved external symbol __imp___glewBindVertexArray
+     1>Engine.obj : error LNK2001: unresolved external symbol __imp___glewGenVertexArrays
+     1>ShaderManager.obj : error LNK2001: unresolved external symbol __imp___glewAttachShader
+     1>ShaderManager.obj : error LNK2001: unresolved external symbol __imp___glewCompileShader
+     1>ShaderManager.obj : error LNK2001: unresolved external symbol __imp___glewCreateProgram
+     1>ShaderManager.obj : error LNK2001: unresolved external symbol __imp___glewCreateShader
+     1>ShaderManager.obj : error LNK2001: unresolved external symbol __imp___glewDeleteProgram
+     1>ShaderManager.obj : error LNK2001: unresolved external symbol __imp___glewDeleteShader
+     1>ShaderManager.obj : error LNK2001: unresolved external symbol __imp___glewGetProgramInfoLog
+     1>ShaderManager.obj : error LNK2001: unresolved external symbol __imp___glewGetProgramiv
+     1>ShaderManager.obj : error LNK2001: unresolved external symbol __imp___glewGetShaderInfoLog
+     1>ShaderManager.obj : error LNK2001: unresolved external symbol __imp___glewGetShaderiv
+     1>ShaderManager.obj : error LNK2001: unresolved external symbol __imp___glewLinkProgram
+     1>ShaderManager.obj : error LNK2001: unresolved external symbol __imp___glewShaderSource
+     1>C:\Users\Luke\Downloads\HelloQuad\HelloQuad\HelloQuad\GLEW\lib\glew32.lib : warning LNK4272: library machine type 'X86' conflicts with target machine type 'x64'
+     1>C:\Users\Luke\Downloads\HelloQuad\HelloQuad\HelloQuad\GLFW\lib\glfw3.lib : warning LNK4272: library machine type 'X86' conflicts with target machine type 'x64'
+     1>C:\Users\Luke\Downloads\HelloQuad\HelloQuad\HelloQuad\FreeImage\lib\FreeImage.lib : warning LNK4272: library machine type 'X86' conflicts with target machine type 'x64'
+     1>C:\Users\Luke\Downloads\HelloQuad\HelloQuad\x64\Debug\HelloQuad.exe : fatal error LNK1120: 28 unresolved externals
+     1>Done Building Project "C:\Users\Luke\Downloads\HelloQuad\HelloQuad\HelloQuad\HelloQuad.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.12
